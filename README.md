@@ -12,33 +12,58 @@ Before you start, ensure that you have the following installed:
 
 * **Python**: This is required to run the game. Download Python: https://www.python.org/downloads/
 
-### Setup
+#### Method 1: Run Pre-built Linux Binary (No Python Needed)
 
-1. **Clone the repository**:
-   First, clone the Midnight-Protocol repository to your local machine:
+If you don’t want to install Python or dependencies, you can directly run the pre-built binary! It’s ready to use on your Linux machine.
 
-   ```bash
-   git clone https://github.com/the-X-alien/Midnight-Protocol.git
+Download the binary from the ```bin/``` folder in the repository.
+
+Navigate to the folder where the binary is stored:
+
+```bash
+cd Midnight-Protocol
    ```
 
-2. **Navigate into the directory**:
-   Change your working directory to the newly cloned folder:
+Make the binary executable (if it isn’t already):
 
-   ```bash
+```bash
+chmod +x midnight-protocol
+   ```
+
+Run the game:
+
+```bash
+    ./midnight-protocol
+   ```
+
+Enjoy the game! No need for Python or extra setup. Just download and run.
+
+#### Method 2: Run from Source Code (Requires Python)
+
+If you prefer to run the game from the source code or want to explore the code, follow these steps:
+
+Clone the repository:
+
+First, clone the Midnight-Protocol repository to your local machine:
+```bash
+git clone https://github.com/the-X-alien/Midnight-Protocol.git
+   ```
+Navigate into the directory:
+Change your working directory to the newly cloned folder:
+
+```bash
    cd Midnight-Protocol
    ```
 
-3. **Install dependencies**:
+Install dependencies:
+nope. None.
 
- nope. None.
-
-### Running the Game
-
-To start the game, simply run the application:
+Run the game:
+To start the game, simply run the Python file:
 
 ```bash
-python Midnight-Protocol.py
-```
+   python Midnight-Protocol.py
+   ```
 
 ### Gameplay
 
